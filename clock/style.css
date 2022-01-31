@@ -1,0 +1,10 @@
+body{
+    background-color: cornflowerblue;
+}
+.clock {
+    margin: 20% auto;
+    padding: 10px;
+    font-size: 80px;    
+    display: inline-block;
+
+}
