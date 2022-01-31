@@ -27,7 +27,7 @@ function showTime() {
       current_sec = "0" + current_sec;
     }
     // If Current Minutes is less than 10, add a 0 in front of the minutes (i.e. 5:05:05)
-    if (current_min < 10) {
+    if (current_min < 10 && String(current_min).length <= 1) {
       current_min = "0" + current_min;
     }
     // If Current Hours is greater than 12, set the AM/PM to PM and change from 24 hour to 12 hour format
